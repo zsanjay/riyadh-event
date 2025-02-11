@@ -6,7 +6,7 @@ export default function NavBar() {
     return (
       <><Navbar fluid rounded>
       <Navbar.Brand href="https://flowbite-react.com" >
-        <img src="/rising-riyadh-logo.svg" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
+        <img src="/images/rising-riyadh-logo.svg" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
       </Navbar.Brand>
       <div className="flex md:order-2 bg-red-500">
         <Button >Register Now</Button>

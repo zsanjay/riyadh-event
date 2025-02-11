@@ -18,7 +18,7 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Gotham, Arial, Helvetica, sans-serif;
-}
+} 
 
 .bg-custom {
   background-image: url('../assets/images/Hero-image.jpg');
