@@ -13,29 +13,51 @@
     --foreground: #ededed;
   }
 }
+@font-face {
+  font-family: 'Gotham-Regular';
+  src: url('/fonts/gotham/Gotham-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url('/fonts/gotham/Gotham-Book.ttf');
+}
+
+@font-face {
+  font-family: 'Gotham-Ultra';
+  src: url('/fonts/gotham/Gotham-Ultra.ttf');
+}
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Gotham, Arial, Helvetica, sans-serif;
-} 
+  font-family: 'Gotham-Book', 'Gotham-Ultra';
+}
 
 .bg-custom {
-  background-image: url('../assets/images/Hero-image.jpg');
+  background-image: url('/images/Hero-image.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .bg-custom1 {
-  background-image: url('../assets/images/eh-01.jpg');
+  background-image: url('/images/eh-01.jpg');
   background-size: cover;
   background-position: center;
 }
 
-@font-face {
-  font-family: 'Gotham';
-  src: url('/fonts/Gotham-BoldItalic.woff2') format('woff2'),
-       url('/fonts/Gotham-BoldItalic.woff') format('woff');
-  font-weight: bold;
-  font-style: italic;
+.bg-custom-why-riyadh {
+  background: linear-gradient(
+    8.25deg,
+    #101118 1.96%,
+    #10141a 32.08%,
+    #101d23 54.16%,
+    #102d33 75.25%,
+    #104448 93.32%,
+    #105255 102.36%
+  );
+}
+.bg-section-title-circle {
+  background: linear-gradient(135deg, #66FCF1 14.65%, #56E1D8 20.31%, #248786 39.39%, #106466 48.59%, #166D67 57.78%, #26886C 74.04%, #35A070 85.35%);
+
 }
