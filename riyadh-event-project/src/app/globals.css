@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import './styles/fonts.css';
+@import './styles/custom-backgrounds.css';
 
 :root {
   --background: #ffffff;
@@ -12,20 +14,6 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
-@font-face {
-  font-family: 'Gotham-Regular';
-  src: url('/fonts/gotham/Gotham-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'Gotham-Book';
-  src: url('/fonts/gotham/Gotham-Book.ttf');
-}
-
-@font-face {
-  font-family: 'Gotham-Ultra';
-  src: url('/fonts/gotham/Gotham-Ultra.ttf');
 }
 
 body {
@@ -46,18 +34,4 @@ body {
   background-position: center;
 }
 
-.bg-custom-why-riyadh {
-  background: linear-gradient(
-    8.25deg,
-    #101118 1.96%,
-    #10141a 32.08%,
-    #101d23 54.16%,
-    #102d33 75.25%,
-    #104448 93.32%,
-    #105255 102.36%
-  );
-}
-.bg-section-title-circle {
-  background: linear-gradient(135deg, #66FCF1 14.65%, #56E1D8 20.31%, #248786 39.39%, #106466 48.59%, #166D67 57.78%, #26886C 74.04%, #35A070 85.35%);
 
-}
