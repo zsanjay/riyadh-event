@@ -21,21 +21,9 @@ body {
 }
 
 .bg-custom {
-  background-image: url('../assets/images/Hero-image.jpg');
+  background-image: url('/riyadh-rising-bg-image.jpg');
   background-size: cover;
   background-position: center;
 }
 
-.bg-custom1 {
-  background-image: url('../assets/images/eh-01.jpg');
-  background-size: cover;
-  background-position: center;
-}
 
-@font-face {
-  font-family: 'Gotham';
-  src: url('/fonts/Gotham-BoldItalic.woff2') format('woff2'),
-       url('/fonts/Gotham-BoldItalic.woff') format('woff');
-  font-weight: bold;
-  font-style: italic;
-}
