@@ -8,12 +8,12 @@ const cardTexts = [
   'Business-friendly policies and tax incentives driving growth.',
 ];
 
-function Card(props) {
+function Card({text}) {
   return (
     <div className="w-full min-w-[390px] max-w-[390px] min-h-[390px] bg-gray-900 pt-[20px] pl-[20px]">
       <div className=" size-[68px] rounded-[50%] bg-custom-green shadow-custom-shadow"></div>
       <div className="text-start  mt-[63px] mr-[51px] font-bold text-3xl leading-[33.5px] font-regular">
-        {props.text}
+        {text}
       </div>
     </div>
   );
