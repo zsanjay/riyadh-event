@@ -1,15 +1,13 @@
 import "./home.css";
-import Header from "./header";
+import Header from "@/components/header";
 
 export default function HomeLayout({ children }) {
-    return (
-        <>
-     <div className="h-screen bg-custom">
+  return (
+    <>
+      <div className="h-screen bg-custom md:shrink-0">
         <Header />
-      <div className="container ml-28">
-        {children}
-        </div>
+        <div>{children}</div>
       </div>
-      </>
-    );
+    </>
+  );
 }

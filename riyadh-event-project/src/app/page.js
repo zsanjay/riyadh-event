@@ -1,5 +1,4 @@
-import NavBar from '@/components/navbar';
-import SectionTitle from '@/components/section-title';
+import Header from '@/components/header';
 import WhyRiyadh from '@/components/why-riyadh';
 
 export default function Home() {
@@ -7,12 +6,11 @@ export default function Home() {
     <>
       <div className="m-auto bg-black h-full w-full">
         <div className="m-auto bg-pink-500 w-full ">
-          {/* div will have same bg as navbar */}
-          <NavBar></NavBar>
+     <Header/>
         </div>
 
         <div className="m-auto max-w-[1920px] border-2 border-yellow-500 h-full">
-          <WhyRiyadh></WhyRiyadh>
+          <WhyRiyadh/>
         </div>
       </div>
     </>
