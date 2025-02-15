@@ -34,4 +34,50 @@ body {
   background-position: center;
 }
 
+.slick-dots-container {
+  position: absolute;
+}
 
+/* add media queries for different arrow sizes at diff screen sizes */
+.slick-prev:before,
+.slick-next:before {
+  color: white !important;
+  font-size: 60px !important;
+}
+
+.slick-active {
+  .slick-dot {
+    background: none;
+  }
+}
+.slick-dot-wrapper {
+  width: min(calc(100vw / 7 - 50px), calc(1920px / 7 - 50px));
+  height: 12px;
+  padding: 2px 1px;
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    #66fcf1 0%,
+    #56e1d8 8%,
+    #248786 35%,
+    #106466 48%,
+    #166d67 61%,
+    #26886c 84%,
+    #35a070 100%
+  );
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.slick-dot {
+  background: rgb(16, 17, 24);
+  width: 98%;
+  height: 98%;
+}
+
+@media only screen and (min-width: 1720px) {
+  .slick-dot-wrapper {
+    padding: 3px !important;
+  }
+}

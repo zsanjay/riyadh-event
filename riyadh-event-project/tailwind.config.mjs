@@ -14,7 +14,8 @@ export default {
         foreground: 'var(--foreground)',
         'custom-teal': 'rgb(102, 252, 241)',
         'custom-green': 'rgb(53, 160, 112)',
-      },
+      'custom-black': 'rgb(16,17,24)'},
+      
       fontFamily: {
         regular: ['Gotham-Regular'],
         book: ['Gotham-Book'],

@@ -22,3 +22,21 @@
     #35a070 85.35%
   );
 }
+
+.bg-custom-corousal-dots {
+  background: linear-gradient(
+    90deg,
+    #66fcf1 0%,
+    #56e1d8 8%,
+    #248786 35%,
+    #106466 48%,
+    #166d67 61%,
+    #26886c 84%,
+    #35a070 100%
+  );
+  max-width: 250px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, red, purple);
+  padding: 3px;
+}
