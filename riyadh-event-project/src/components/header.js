@@ -7,7 +7,7 @@ import NavLink from './nav-link';
 export default function Header() {
   return (
     <>
-      <nav className="m-auto max-w-[2500px] bg-white">
+      <nav className="m-auto max-w-[2500px]">
         <DesktopContainer>
           <div className="relative flex h-16 items-center justify-between">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
