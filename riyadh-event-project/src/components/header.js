@@ -57,7 +57,7 @@ export default function Header() {
               <div className="flex shrink-0 items-center">
                 <Image
                   className="h-8 w-auto"
-                  src="/rising-riyadh-logo.svg"
+                  src="/images/rising-riyadh-logo.svg"
                   alt="Riyadh Rising Logo"
                   width={80}
                   height={80}

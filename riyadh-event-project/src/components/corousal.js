@@ -75,72 +75,28 @@ export default function Carousel() {
       </div>
     ),
   };
+  const eventHighlightImages = [
+    { src: '/images/eh-01.jpg', alt: '300+ global startups' },
+    { src: '/images/eh-02.jpg', alt: '100+ Investors' },
+    { src: '/images/eh-03.jpg', alt: '30+ Niche-based Pitch Sessions' },
+    { src: '/images/eh-04.jpg', alt: '40+ workshops' },
+    { src: '/images/eh-05.jpg', alt: 'Panel Discussions & Live Podcasts' },
+    { src: '/images/eh-06.jpg', alt: 'VIP Investor Lounge' },
+    { src: '/images/eh-07.jpg', alt: 'Desert Night Meet' },
+  ];
   return (
     <Slider {...settings}>
-      <div>
-        <Image
-          src="/eh-01.jpg"
-          alt="300+ global startups"
-          width={660}
-          height={340}
-          className="w-full"
-        />
-      </div>
-      <div>
-        <Image
-          src="/eh-02.jpg"
-          alt="100+ Investors"
-          width={660}
-          height={340}
-          className="w-full"
-        />
-      </div>
-      <div>
-        <Image
-          src="/eh-03.jpg"
-          alt="30+ Niche-based Pitch Sessions"
-          width={660}
-          height={340}
-          className="w-full"
-        />
-      </div>
-      <div>
-        <Image
-          src="/eh-04.jpg"
-          alt="40+ workshops"
-          width={660}
-          height={340}
-          className="w-full"
-          style={{ objectFit: 'cover' }}
-        />
-      </div>
-      <div>
-        <Image
-          src="/eh-05.jpg"
-          alt="Panel Discussions & Live Podcasts"
-          width={660}
-          height={340}
-          className="w-full"
-        />
-      </div>
-      <div>
-        <Image
-          src="/eh-06.jpg"
-          alt="VIP Investor Lounge"
-          width={660}
-          height={340}
-          className="w-full"
-        />
-      </div>
-      <div>
-        <Image
-          src="/eh-07.jpg"
-          alt="Desert Night Meet"
-          width={660}
-          height={340}
-          className="w-full"
-        />
-      </div>
+      {eventHighlightImages.map(({ src, alt }, index) => (
+        <div key={index}>
+          <Image
+            src={src}
+            alt={alt}
+            width={660}
+            height={340}
+            className="w-full"
+          />
+        </div>
+      ))}
     </Slider>
   );
 }
