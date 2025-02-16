@@ -1,20 +1,29 @@
 /** @type {import('tailwindcss').Config} */
-const flowbite = require("flowbite-react/tailwind");
+
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    flowbite.content(),
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-        testYellow:"rgb(255, 204, 0)"
+        background: 'var(--background)',
+        foreground: 'var(--foreground)',
+        'custom-teal': 'rgb(102, 252, 241)',
+        'custom-green': 'rgb(53, 160, 112)',
+      },
+      fontFamily: {
+        regular: ['Gotham-Regular'],
+        book: ['Gotham-Book'],
+        ultra: ['Gotham-Ultra'],
+      },
+      boxShadow: {
+        'custom-shadow': '7px 7px 10px 0px rgba(0, 0, 0, 0.5)',
       },
     },
   },
-  plugins: [flowbite.plugin()],
+  plugins: [],
 };

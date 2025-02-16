@@ -1,13 +1,13 @@
-import Image from "next/image";
-import Link from "next/link";
-import DesktopContainer from "./desktop-container";
-import MobileContainer from "./mobile-container";
-import NavLink from "./nav-link";
+import Image from 'next/image';
+import Link from 'next/link';
+import DesktopContainer from './desktop-container';
+import MobileContainer from './mobile-container';
+import NavLink from './nav-link';
 
 export default function Header() {
   return (
     <>
-      <nav>
+      <nav className="m-auto max-w-[2500px] bg-white">
         <DesktopContainer>
           <div className="relative flex h-16 items-center justify-between">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
