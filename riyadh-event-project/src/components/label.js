@@ -1,5 +1,6 @@
 import DesktopContainer from "./desktop-container";
 import MobileContainer from "./mobile-container";
+import SocialLinks from './social-links';
 
 export default function Label() {
   const heading = "Riyadh Rising ";
@@ -30,6 +31,19 @@ export default function Label() {
           <div>
             <Content text1={"Join us for  where the world's brightest startups, visionary investors,"} text2="and industry leaders converge to drive innovation and unlock boundless" additionalClass="mt-8"/>
           </div>
+          <div className="w-[389px] h-[50px]">
+            <div className="[font-family:'Gotham_Book-Italic', Helvetica] font-normal italic text-white text-[45px] tracking-[0] leading-[normal] whitespace-nowrap">
+                April 21-22, 2025.
+            </div>
+          </div>
+          <div className="w-[497px] h-9 sm:mt-8">
+            <div className="[font-family:'Gotham_BoldItalic', Helvetica] font-bold italic text-white text-[#66fcf1] text-[38px] tracking-[0] leading-[normal] whitespace-nowrap">
+                Discover Event Highlights
+            </div>
+          </div>
+          <div className="w-[497px] h-9 sm:mt-8 ">
+            <SocialLinks/>
+          </div>
         </div>
       </DesktopContainer>
 
@@ -53,8 +67,18 @@ export default function Label() {
             <Content text1={heading + year + " is where the world's brightest startups, visionary investors,"} text2="and industry leaders converge to drive innovation and unlock boundless" screenType="M"/>
         </div>
         <div className="sm:mt-2">
-            <Content text1={heading + year + " is where the world's brightest startups, visionary investors,"} text2="and industry leaders converge to drive innovation and unlock boundless" screenType="M"/>
+            <Content text1={"Join us for  where the world's brightest startups, visionary investors,"} text2="and industry leaders converge to drive innovation and unlock boundless" screenType="M"/>
         </div>
+        <div className="w-[389px] h-[50px]">
+            <div className="absolute block px-3 py-2 [font-family:'Gotham_Book-Italic', Helvetica] font-normal italic text-white text-base tracking-[0] leading-[normal] break-normal">
+                April 21-22, 2025.
+            </div>
+          </div>
+          <div className="w-[497px] h-9">
+            <div className="absolute block px-3 py-2 [font-family:'Gotham_BoldItalic', Helvetica] font-bold italic text-white text-[#66fcf1] text-base tracking-[0] leading-[normal] break-normal">
+                Discover Event Highlights
+            </div>
+          </div>
       </MobileContainer>
     </>
   );
@@ -68,13 +92,13 @@ function Content({text1 , text2, screenType = 'D', additionalClass}) {
     
     if(screenType === 'M') {
         return (
-            <div className="h-52 w-1034">
-          <p className="absolute block px-3 py-2 [font-family:'Gotham-Book', Helvetica] font-normal  text-white text-base tracking-[0] leading-[normal] break-normal">
-            { text1 } 
-          </p>
-          <p className="absolute mt-10 block px-3 py-2 [font-family:'Gotham-Book', Helvetica] font-normal  text-white text-base tracking-[0] leading-[normal] break-normal">
-            { text2 }
-          </p>
+            <div className="h-24 w-1034">
+                <p className="absolute block px-3 py-2 [font-family:'Gotham-Book', Helvetica] font-normal  text-white text-base tracking-[0] leading-[normal] break-normal">
+                    { text1 } 
+                </p>
+                <p className="absolute mt-10 block px-3 py-2 [font-family:'Gotham-Book', Helvetica] font-normal  text-white text-base tracking-[0] leading-[normal] break-normal">
+                    { text2 }
+                </p>
         </div>
         )
     }

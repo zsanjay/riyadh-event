@@ -61,6 +61,7 @@ export default function Header() {
                   alt="Riyadh Rising Logo"
                   width={80}
                   height={80}
+                  priority={true}
                 />
               </div>
               <div className="hidden sm:ml-6 sm:block">
