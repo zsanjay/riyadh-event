@@ -5,45 +5,14 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Image from 'next/image';
 
-function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={` ${className}`}
-      style={{
-        ...style,
-        background: 'none',
-        right: '5%',
-      }}
-      onClick={onClick}
-    />
-  );
-}
-
-function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{
-        ...style,
-        background: 'none',
-        left: '2%',
-        'z-index': '1',
-      }}
-      onClick={onClick}
-    />
-  );
-}
 export default function Carousel() {
   var settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    autoplay: true,
+    autoplaySpeed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
     appendDots: (dots) => (
       <div
         style={{

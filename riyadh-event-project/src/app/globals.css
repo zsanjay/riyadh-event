@@ -41,8 +41,7 @@ body {
 /* add media queries for different arrow sizes at diff screen sizes */
 .slick-prev:before,
 .slick-next:before {
-  color: white !important;
-  font-size: 60px !important;
+  display: none;
 }
 
 .slick-active {
@@ -51,7 +50,7 @@ body {
   }
 }
 .slick-dot-wrapper {
-  width: min(calc(100vw / 7 - 50px), calc(1920px / 7 - 50px));
+  width: min(calc(80vw / 7 - 50px), calc(1448px / 7 - 50px));
   height: 12px;
   padding: 2px 1px;
   position: relative;
@@ -65,9 +64,6 @@ body {
     #26886c 84%,
     #35a070 100%
   );
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 
 .slick-dot {
