@@ -14,13 +14,8 @@ body {
 }
 
 .bg-custom {
-  background-image: url('/riyadh-rising-bg-image.jpg');
+  background-image: url('/images/riyadh-rising-bg-image.jpg');
   background-size: cover;
   background-position: center;
 }
 
-.bg-custom1 {
-  background-image: url('/images/eh-01.jpg');
-  background-size: cover;
-  background-position: center;
-}
