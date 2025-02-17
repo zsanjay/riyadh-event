@@ -8,9 +8,8 @@ export default function Home() {
     <>
       <div className="m-auto bg-custom-black h-full w-full">
         <div className="m-auto bg-pink-500 w-full ">
-          <Header />
+          <Header/>
         </div>
-
         <div className="m-auto max-w-[1920px] border-2 border-yellow-500 h-full">
           <WhyRiyadh />
           <EventHighlights />
