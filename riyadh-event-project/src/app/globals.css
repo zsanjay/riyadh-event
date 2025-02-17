@@ -1,57 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import './styles/fonts.css';
+@import './styles/custom-backgrounds.css';
+@import './styles/custom-carousal.css';
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-@font-face {
-  font-family: 'Gotham-Regular';
-  src: url('/fonts/gotham/Gotham-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'Gotham-Book';
-  src: url('/fonts/gotham/Gotham-Book.ttf');
-}
-
-@font-face {
-  font-family: 'Gotham-Ultra';
-  src: url('/fonts/gotham/Gotham-Ultra.ttf');
+  --customBlack: rgb(16, 17, 24);
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: 'Gotham-Book', 'Gotham-Ultra';
+  font-family: 'Gotham-Book', 'Gotham-Ultra', 'Gotham-Regular';
 }
 
 .bg-custom {
-  background-image: url('/riyadh-rising-bg-image.jpg');
+  background-image: url('/images/riyadh-rising-bg-image.jpg');
   background-size: cover;
   background-position: center;
 }
 
-.bg-custom-why-riyadh {
-  background: linear-gradient(
-    8.25deg,
-    #101118 1.96%,
-    #10141a 32.08%,
-    #101d23 54.16%,
-    #102d33 75.25%,
-    #104448 93.32%,
-    #105255 102.36%
-  );
-}
-.bg-section-title-circle {
-  background: linear-gradient(135deg, #66FCF1 14.65%, #56E1D8 20.31%, #248786 39.39%, #106466 48.59%, #166D67 57.78%, #26886C 74.04%, #35A070 85.35%);
-
-}
