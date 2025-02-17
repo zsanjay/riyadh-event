@@ -5,7 +5,9 @@
 @import './styles/custom-backgrounds.css';
 @import './styles/custom-carousal.css';
 
-
+:root {
+  --customBlack: rgb(16, 17, 24);
+}
 
 body {
   font-family: 'Gotham-Book', 'Gotham-Ultra';

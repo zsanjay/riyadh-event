@@ -4,7 +4,6 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-
 export default function Carousel() {
   var settings = {
     dots: true,
@@ -20,7 +19,7 @@ export default function Carousel() {
           justifyContent: 'center',
           alignItems: 'center',
           alignContent: 'center',
-          backgroundColor: 'rgb(16, 17, 24)',
+          backgroundColor: 'var(--customBlack)',
           bottom: '110%',
           width: '100%',
         }}

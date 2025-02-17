@@ -6,7 +6,7 @@ import EventHighlights from '@/components/event-highlights';
 export default function Home() {
   return (
     <>
-      <div className="m-auto bg-black h-full w-full">
+      <div className="m-auto bg-custom-black h-full w-full">
         <div className="m-auto bg-pink-500 w-full ">
           <Header />
         </div>
@@ -14,7 +14,6 @@ export default function Home() {
         <div className="m-auto max-w-[1920px] border-2 border-yellow-500 h-full">
           <WhyRiyadh />
           <EventHighlights />
-          
         </div>
       </div>
     </>
