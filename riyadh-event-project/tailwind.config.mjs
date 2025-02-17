@@ -18,7 +18,7 @@ export default {
       fontFamily: {
         regular: ['Gotham-Regular'],
         book: ['Gotham-Book'],
-        ultra: ['Gotham-Ultra'],
+        ultra: ['Gotham-Ultra']
       },
       boxShadow: {
         'custom-shadow': '7px 7px 10px 0px rgba(0, 0, 0, 0.5)',

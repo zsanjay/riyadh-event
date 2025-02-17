@@ -12,17 +12,17 @@ export default function Label() {
       <div className="flex justify-between items-center">
         <div className="w-1/2 hidden sm:block h-200 sm:ml-10">
           <div className="h-175 w-1553">
-            <p className="[font-family:'Gotham_Ultra-Regular', Helvetica] font-black text-transparent text-[158px] tracking-tight leading-[normal] whitespace-nowrap">
-              <span className="[font-family:'Gotham_Ultra-Italic', Helvetica] italic text-white">
+            <p className="font-ultra font-black text-transparent text-[158px] tracking-tight leading-[normal] whitespace-nowrap">
+              <span className="font-ultra italic text-white">
                 {heading}
               </span>
-              <span className="[font-family:'Gotham_Ultra-Italic', Helvetica] italic text-[#66fcf1]">
+              <span className="font-ultra italic text-custom-teal">
                 {year}
               </span>
             </p>
           </div>
           <div className="h-68 w-1554">
-            <p className="[font-family:'Gotham_Book-Italic', Helvetica] font-normal italic text-white text-[61px] tracking-[0] leading-[normal] whitespace-nowrap">
+            <p className="font-book font-normal italic text-white text-[61px] tracking-[0] leading-[normal] whitespace-nowrap">
               {subHeading}
             </p>
           </div>
@@ -33,13 +33,13 @@ export default function Label() {
             <Content text1={"Join us for  where the world's brightest startups, visionary investors,"} text2="and industry leaders converge to drive innovation and unlock boundless" additionalClass="mt-8"/>
           </div>
           <div className="w-[389px] h-[50px]">
-            <div className="[font-family:'Gotham_Book-Italic', Helvetica] font-normal italic text-white text-[45px] tracking-[0] leading-[normal] whitespace-nowrap">
+            <div className="font-book font-normal italic text-white text-[45px] tracking-[0] leading-[normal] whitespace-nowrap">
                 April 21-22, 2025.
             </div>
           </div>
           <div className="w-[497px] h-9 sm:mt-8">
-            <div className="border-2 border-[#66fcf1] p-2 rounded-lg">
-              <div className="[font-family:'Gotham_BoldItalic', Helvetica] font-bold italic text-[#66fcf1] text-[37px] tracking-[0] leading-[normal] whitespace-nowrap">
+            <div className="border-2 border-custom-teal p-2 rounded-lg">
+              <div className="font-bold italic text-custom-teal text-[37px] tracking-[0] leading-[normal] whitespace-nowrap">
                   Discover Event Highlights
               </div>
             </div>
@@ -53,17 +53,17 @@ export default function Label() {
 
       <MobileContainer>
         <div className="h-175 w-1553">
-          <p className="block px-3 py-2 [font-family:'Gotham_Ultra-Regular', Helvetica] font-black text-transparent text-base tracking-tight leading-[normal] whitespace-nowrap">
-            <span className="[font-family:'Gotham_Ultra-Italic', Helvetica] italic text-white">
+          <p className="block px-3 py-2 font-ultra font-black text-transparent text-base tracking-tight leading-[normal] whitespace-nowrap">
+            <span className="font-ultra italic text-white">
               {heading}{" "}
             </span>
-            <span className="[font-family:'Gotham_Ultra-Italic', Helvetica] italic text-[#66fcf1]">
+            <span className="font-ultra italic text-custom-teal">
               {year}
             </span>
           </p>
         </div>
         <div className="h-68 w-1554">
-          <p className="block px-3 py-2 [font-family:'Gotham_Book-Italic', Helvetica] font-normal italic text-white text-base tracking-[0] leading-[normal] whitespace-nowrap">
+          <p className="block px-3 py-2 font-book font-normal italic text-white text-base tracking-[0] leading-[normal] whitespace-nowrap">
             {subHeading}
           </p>
         </div>
@@ -74,13 +74,13 @@ export default function Label() {
             <Content text1={"Join us for  where the world's brightest startups, visionary investors,"} text2="and industry leaders converge to drive innovation and unlock boundless" screenType="M"/>
         </div>
         <div className="w-[389px] h-[50px]">
-            <div className="absolute block px-3 py-2 [font-family:'Gotham_Book-Italic', Helvetica] font-normal italic text-white text-base tracking-[0] leading-[normal] break-normal">
+            <div className="absolute block px-3 py-2 font-book font-normal italic text-white text-base tracking-[0] leading-[normal] break-normal">
                 April 21-22, 2025.
             </div>
           </div>
           <div className="w-[375px] h-9">
-          <div className="border-3 border-[#66fcf1] p-2 rounded-lg">
-            <div className=" [font-family:'Gotham_BoldItalic', Helvetica] font-bold italic  text-[#66fcf1] text-base tracking-[0] leading-[normal] break-normal">
+          <div className="border-2 border-custom-teal p-2 rounded-lg">
+            <div className="font-bold italic  text-custom-teal text-base tracking-[0] leading-[normal] break-normal">
                 Discover Event Highlights
             </div>
             </div>
