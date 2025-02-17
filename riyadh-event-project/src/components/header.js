@@ -75,7 +75,7 @@ export default function Header() {
               <div>
                 <Link
                   href="#"
-                  className="block rounded-md bg-yellow-400 px-3 py-2 md:w-32 lg:w-48 sm:w-16 h-23 [font-family:'Gotham-Book', Helvetica] font-bold italic text-black text-2xl tracking-[0] leading-[normal] whitespace-nowrap"
+                  className="block rounded-md bg-yellow-400 px-3 py-2 md:w-32 lg:w-48 sm:w-16 h-23 font-book font-bold italic text-black text-2xl tracking-[0] leading-[normal] whitespace-nowrap"
                 >
                   Register Now
                 </Link>
