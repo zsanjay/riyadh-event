@@ -2,7 +2,6 @@
   position: absolute;
 }
 
-/* add media queries for different arrow sizes at diff screen sizes */
 .slick-prev:before,
 .slick-next:before {
   display: none;
@@ -13,6 +12,7 @@
     background: none;
   }
 }
+
 .slick-dot-wrapper {
   width: min(calc(80vw / 7 - 50px), calc(1448px / 7 - 50px));
   height: 12px;
