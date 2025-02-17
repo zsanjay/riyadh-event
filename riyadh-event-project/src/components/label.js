@@ -9,7 +9,8 @@ export default function Label() {
   return (
     <>
       <DesktopContainer>
-        <div className="hidden sm:block h-200 sm:ml-10">
+      <div className="flex justify-between items-center">
+        <div className="w-1/2 hidden sm:block h-200 sm:ml-10">
           <div className="h-175 w-1553">
             <p className="[font-family:'Gotham_Ultra-Regular', Helvetica] font-black text-transparent text-[158px] tracking-tight leading-[normal] whitespace-nowrap">
               <span className="[font-family:'Gotham_Ultra-Italic', Helvetica] italic text-white">
@@ -37,13 +38,16 @@ export default function Label() {
             </div>
           </div>
           <div className="w-[497px] h-9 sm:mt-8">
-            <div className="[font-family:'Gotham_BoldItalic', Helvetica] font-bold italic text-white text-[#66fcf1] text-[38px] tracking-[0] leading-[normal] whitespace-nowrap">
-                Discover Event Highlights
+            <div className="border-2 border-[#66fcf1] p-2 rounded-lg">
+              <div className="[font-family:'Gotham_BoldItalic', Helvetica] font-bold italic text-[#66fcf1] text-[37px] tracking-[0] leading-[normal] whitespace-nowrap">
+                  Discover Event Highlights
+              </div>
             </div>
           </div>
-          <div className="w-[497px] h-9 sm:mt-8 ">
+          <div className="w-1/2 list-none p-0 flex justify-end gap-4 w-[497px] h-9 sm:mt-8">
             <SocialLinks/>
           </div>
+        </div>
         </div>
       </DesktopContainer>
 
@@ -74,9 +78,11 @@ export default function Label() {
                 April 21-22, 2025.
             </div>
           </div>
-          <div className="w-[497px] h-9">
-            <div className="absolute block px-3 py-2 [font-family:'Gotham_BoldItalic', Helvetica] font-bold italic text-white text-[#66fcf1] text-base tracking-[0] leading-[normal] break-normal">
+          <div className="w-[375px] h-9">
+          <div className="border-3 border-[#66fcf1] p-2 rounded-lg">
+            <div className=" [font-family:'Gotham_BoldItalic', Helvetica] font-bold italic  text-[#66fcf1] text-base tracking-[0] leading-[normal] break-normal">
                 Discover Event Highlights
+            </div>
             </div>
           </div>
       </MobileContainer>

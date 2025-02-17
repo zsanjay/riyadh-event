@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "next": "15.1.6",
-    "npx": "^3.0.0",
+    "npx": "^10.2.2",
     "prettier": "^3.5.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
