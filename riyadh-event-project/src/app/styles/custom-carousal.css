@@ -1,0 +1,43 @@
+.slick-dots-container {
+  position: absolute;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}
+
+.slick-active {
+  .slick-dot {
+    background: none;
+  }
+}
+
+.slick-dot-wrapper {
+  width: min(calc(80vw / 7 - 50px), calc(1448px / 7 - 50px));
+  height: 12px;
+  padding: 2px 1px;
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    #66fcf1 0%,
+    #56e1d8 8%,
+    #248786 35%,
+    #106466 48%,
+    #166d67 61%,
+    #26886c 84%,
+    #35a070 100%
+  );
+}
+
+.slick-dot {
+  background: var(--customBlack);
+  width: 98%;
+  height: 98%;
+}
+
+@media only screen and (min-width: 1720px) {
+  .slick-dot-wrapper {
+    padding: 3px !important;
+  }
+}

@@ -1,7 +1,7 @@
-import Link from "next/link";
+import Link from 'next/link';
 
-export default function NavLink({ text, screenType = "D" }) {
-  if (screenType == "M") {
+export default function NavLink({ text, screenType = 'D' }) {
+  if (screenType == 'M') {
     return (
       <Link
         href="#"
@@ -14,7 +14,7 @@ export default function NavLink({ text, screenType = "D" }) {
   return (
     <Link
       href="#"
-      className="rounded-md px-3 py-2 w-200 h-23 [font-family:'Gotham-Book', Helvetica] font-normal text-white text-2xl tracking-[0] leading-[normal] whitespace-nowrap"
+      className="rounded-md px-3 py-2 w-200 h-23 font-book font-normal text-white text-2xl tracking-[0] leading-[normal] whitespace-nowrap"
     >
       {text}
     </Link>

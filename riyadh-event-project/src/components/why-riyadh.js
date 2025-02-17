@@ -1,6 +1,7 @@
 'use client';
 
 import SectionTitle from '@/components/section-title';
+
 const cardTexts = [
   'Access to the world’s largest investment funds and capital networks.',
   'A thriving ecosystem for startups and entrepreneurs.',
@@ -8,7 +9,7 @@ const cardTexts = [
   'Business-friendly policies and tax incentives driving growth.',
 ];
 
-function Card({text}) {
+function Card({ text }) {
   return (
     <div className="w-full min-w-[390px] max-w-[390px] min-h-[390px] bg-gray-900 pt-[20px] pl-[20px]">
       <div className=" size-[68px] rounded-[50%] bg-custom-green shadow-custom-shadow"></div>
@@ -22,7 +23,7 @@ export default function WhyRiyadh() {
   return (
     <div className="text-center text-white font-book bg-custom-why-riyadh">
       <SectionTitle title="Why Riyadh?"></SectionTitle>
-      <div className="mt-[80px] mb-[101px] text-3xl">
+      <div className="mt-[80px] mb-[101px] text-3xl italic">
         In Riyadh, innovation meets opportunity—position yourself at the heart
         of a city reshaping the future
       </div>
@@ -31,7 +32,7 @@ export default function WhyRiyadh() {
           <Card text={text} key={index}></Card>
         ))}
       </div>
-      <div className="mx-[200px] mt-[72px] mb-[143px] text-xl ">
+      <div className="px-[200px] mt-[72px] pb-[143px] text-xl ">
         Riyadh, the capital of Saudi Arabia, is the epicenter of innovation and
         investment in the Middle East. Strategically located at the crossroads
         of Europe, Asia, and Africa, it provides access to global markets and
