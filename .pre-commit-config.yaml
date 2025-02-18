@@ -1,7 +1,7 @@
 repos:
   -   repo: local
       hooks:
-        - id: run-python-script
+        - id: run-pre-commit-hook-script
           name: "Run Python Script"
           entry: python3 .git/hooks/pre-commit.py
           language: system
