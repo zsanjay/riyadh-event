@@ -66,10 +66,10 @@ export default function Header() {
               </div>
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex space-x-4">
-                  <NavLink text="Discover Event Highlights" />
-                  <NavLink text="Explore Ticket Options" />
-                  <NavLink text="Join as a Partner" />
-                  <NavLink text="Get in Touch" />
+                  <NavLink sectionId="#event-highlights" text="Discover Event Highlights" />
+                  <NavLink sectionId="#event-highlights" text="Explore Ticket Options" />
+                  <NavLink sectionId="#event-highlights" text="Join as a Partner" />
+                  <NavLink sectionId="#event-highlights" text="Get in Touch" />
                 </div>
               </div>
               <div>
@@ -86,15 +86,15 @@ export default function Header() {
 
         <MobileContainer>
           <Link
-            href="#"
+            href="#event-highlights"
             className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
             aria-current="page"
           >
             Discover Event Highlights
           </Link>
-          <NavLink text="Explore Ticket Option" screenType="M" />
-          <NavLink text="Join as a Partner" screenType="M" />
-          <NavLink text="Get in Touch" screenType="M" />
+          <NavLink sectionId="#event-highlights" text="Explore Ticket Option" screenType="M" />
+          <NavLink sectionId="#event-highlights" text="Join as a Partner" screenType="M" />
+          <NavLink sectionId="#event-highlights" text="Get in Touch" screenType="M" />
         </MobileContainer>
       </nav>
     </>

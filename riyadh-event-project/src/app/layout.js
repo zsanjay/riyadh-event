@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/images/rising-riyadh-logo.svg" />
       </head>
       <body>
-      <div className="h-screen bg-contain max-w-[1920px] bg-custom m-auto h-full w-full">
+      <div className="h-screen max-w-[1920px] bg-custom-home m-auto h-full w-full">
         <Header />
         <div>{children}</div>
       </div>

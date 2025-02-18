@@ -10,8 +10,8 @@ export default function Label() {
     <>
       <DesktopContainer>
       <div className="flex justify-between items-center">
-        <div className="w-1/2 hidden sm:block h-200 sm:ml-10">
-          <div className="h-175 w-1553">
+        <div className="w-1/2 hidden sm:block sm:ml-10">
+          <div>
             <p className="font-ultra font-black text-transparent text-[158px] tracking-tight leading-[normal] whitespace-nowrap">
               <span className="font-ultra italic text-white">
                 {heading}
@@ -37,17 +37,17 @@ export default function Label() {
                 April 21-22, 2025.
             </div>
           </div>
-          <div className="w-[497px] h-9 sm:mt-8">
+          <div className="w-[497px] h-20 sm:mt-8">
             <div className="border-2 border-custom-teal p-2 rounded-lg">
               <div className="font-bold italic text-custom-teal text-[37px] tracking-[0] leading-[normal] whitespace-nowrap">
                   Discover Event Highlights
               </div>
             </div>
           </div>
-          <div className="w-1/2 list-none p-0 flex justify-end gap-4 w-[497px] h-9 sm:mt-8">
+        </div>
+        <div className="w-1/2 hidden sm:block justify-end">
             <SocialLinks/>
           </div>
-        </div>
         </div>
       </DesktopContainer>
 
