@@ -75,7 +75,7 @@ export default function Header() {
               <div>
                 <Link
                   href="#"
-                  className="block rounded-md bg-yellow-400 px-3 py-2 md:w-32 lg:w-48 sm:w-16 h-23 font-book font-bold italic text-black text-2xl tracking-[0] leading-[normal] whitespace-nowrap"
+                  className="header-link-register-now"
                 >
                   Register Now
                 </Link>
@@ -87,7 +87,7 @@ export default function Header() {
         <MobileContainer>
           <Link
             href="#event-highlights"
-            className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
+            className="header-link-first-mobile"
             aria-current="page"
           >
             Discover Event Highlights

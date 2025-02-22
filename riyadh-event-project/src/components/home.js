@@ -1,8 +1,9 @@
+import Link from "next/link";
 import DesktopContainer from "./desktop-container";
 import MobileContainer from "./mobile-container";
 import SocialLinks from './social-links';
 
-export default function Label() {
+export default function Home() {
   const heading = "Riyadh Rising ";
   const year = "2025";
   const subHeading = "Unleashing Global Innovation in the Heart of Riyadh";
@@ -39,9 +40,9 @@ export default function Label() {
           </div>
           <div className="w-[497px] h-20 sm:mt-8">
             <div className="border-2 border-custom-teal p-2 rounded-lg">
-              <div className="font-bold italic text-custom-teal text-[37px] tracking-[0] leading-[normal] whitespace-nowrap">
+              <Link href="#event-highlights" className="font-bold italic text-custom-teal text-[37px] tracking-[0] leading-[normal] whitespace-nowrap">
                   Discover Event Highlights
-              </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -80,9 +81,9 @@ export default function Label() {
           </div>
           <div className="w-[375px] h-9">
           <div className="border-2 border-custom-teal p-2 rounded-lg">
-            <div className="font-bold italic  text-custom-teal text-base tracking-[0] leading-[normal] break-normal">
+            <Link href="#event-highlights" className="font-bold italic  text-custom-teal text-base tracking-[0] leading-[normal] break-normal">
                 Discover Event Highlights
-            </div>
+            </Link>
             </div>
           </div>
       </MobileContainer>
@@ -93,7 +94,7 @@ export default function Label() {
 
 function Content({text1 , text2, screenType = 'D', additionalClass}) {
 
-    let contentClasses =
+    const contentClasses =
       'absolute font-book font-normal  text-white text-2xl tracking-[0] leading-[normal] whitespace-nowrap ';
 
     

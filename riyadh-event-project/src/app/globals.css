@@ -5,6 +5,7 @@
 @import './styles/custom-backgrounds.css';
 @import './styles/custom-carousal.css';
 @import './styles/social-links.css';
+@import './styles/header.css';
 
 :root {
   --customBlack: rgb(16, 17, 24);
