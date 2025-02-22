@@ -66,16 +66,16 @@ export default function Header() {
               </div>
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex space-x-4">
-                  <NavLink text="Discover Event Highlights" />
-                  <NavLink text="Explore Ticket Options" />
-                  <NavLink text="Join as a Partner" />
-                  <NavLink text="Get in Touch" />
+                  <NavLink sectionId="#event-highlights" text="Discover Event Highlights" />
+                  <NavLink sectionId="#event-highlights" text="Explore Ticket Options" />
+                  <NavLink sectionId="#event-highlights" text="Join as a Partner" />
+                  <NavLink sectionId="#event-highlights" text="Get in Touch" />
                 </div>
               </div>
               <div>
                 <Link
                   href="#"
-                  className="block rounded-md bg-yellow-400 px-3 py-2 md:w-32 lg:w-48 sm:w-16 h-23 font-book font-bold italic text-black text-2xl tracking-[0] leading-[normal] whitespace-nowrap"
+                  className="header-link-register-now"
                 >
                   Register Now
                 </Link>
@@ -86,15 +86,15 @@ export default function Header() {
 
         <MobileContainer>
           <Link
-            href="#"
-            className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
+            href="#event-highlights"
+            className="header-link-first-mobile"
             aria-current="page"
           >
             Discover Event Highlights
           </Link>
-          <NavLink text="Explore Ticket Option" screenType="M" />
-          <NavLink text="Join as a Partner" screenType="M" />
-          <NavLink text="Get in Touch" screenType="M" />
+          <NavLink sectionId="#event-highlights" text="Explore Ticket Option" screenType="M" />
+          <NavLink sectionId="#event-highlights" text="Join as a Partner" screenType="M" />
+          <NavLink sectionId="#event-highlights" text="Get in Touch" screenType="M" />
         </MobileContainer>
       </nav>
     </>

@@ -40,3 +40,9 @@
   background: linear-gradient(to right, red, purple);
   padding: 3px;
 }
+
+.bg-custom-home {
+  background-image: url('/images/riyadh-rising-bg-image.jpg');
+  background-size: cover;
+  background-position: center;
+}

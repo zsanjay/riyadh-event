@@ -1,0 +1,14 @@
+.custom-social-icon {
+    @apply border-2 border-custom-teal rounded-full;
+}
+
+.social-ul-list {
+    @apply list-none p-0 m-0 flex flex-col gap-8 sm:gap-6 md:gap-4 lg:gap-8;
+}
+
+.social-list {
+    @apply absolute right-[60px];
+}
+
+
+  

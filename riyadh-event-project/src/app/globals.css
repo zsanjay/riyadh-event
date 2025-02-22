@@ -4,18 +4,21 @@
 @import './styles/fonts.css';
 @import './styles/custom-backgrounds.css';
 @import './styles/custom-carousal.css';
+@import './styles/social-links.css';
+@import './styles/header.css';
 
 :root {
   --customBlack: rgb(16, 17, 24);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: 'Gotham-Book', 'Gotham-Ultra', 'Gotham-Regular';
 }
 
-.bg-custom {
-  background-image: url('/images/riyadh-rising-bg-image.jpg');
-  background-size: cover;
-  background-position: center;
-}
+
+
 

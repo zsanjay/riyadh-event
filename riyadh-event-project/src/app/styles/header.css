@@ -1,0 +1,17 @@
+.header-link-first-mobile {
+    @apply block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white;
+}
+
+.header-link-register-now {
+    @apply block rounded-md bg-yellow-400 px-3 py-2 md:w-32 lg:w-48 sm:w-16  font-book font-bold italic text-black text-2xl tracking-[0px] leading-[normal] whitespace-nowrap;
+}
+
+.header-link-desktop {
+    @apply rounded-md px-3 py-2 h-[23px] font-book font-normal text-white text-2xl  tracking-[0px] leading-[normal] whitespace-nowrap;
+}
+
+.header-link-mobile {
+    @apply block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white;
+}
+
+
